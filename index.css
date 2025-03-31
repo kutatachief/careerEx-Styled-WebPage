@@ -1,0 +1,167 @@
+
+body{
+    background-color: #f8eeee; /* Light grey background */
+    font-family: Arial, sans-serif; /* Font style for the body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+
+nav{
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;     /* Fixed position to stay at the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */ 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    text-align: center;
+    margin-left: 0px;
+}
+
+ul li{
+    display: inline;
+    margin-right: 100px;
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a:hover{
+    color: #55503b; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+section{
+    text-align: center;
+    padding: 20px;
+    width: 50%; /* Full width */
+    margin: 0 auto; /* Center the section */
+    
+}
+
+.sec1{
+    background-color: #7e99a3; /* Light grey background */
+    border: #55503b solid 2px; /* Border around the section */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 50px; /* Space for the fixed nav */
+}
+
+.sec2{
+    background-color: #677565; /* Light grey background */
+    border: #55503b solid 2px; /* Border around the section */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 50px; /* Space for the fixed nav */
+}
+
+.sec3{
+    background-color: #ab886b; /* Light grey background */
+    border: #55503b solid 2px; /* Border around the section */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 50px; /* Space for the fixed nav */
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    margin-top: 50px; /* Space for the fixed nav */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.section-image{
+    margin-top: 100px; /* Space for the fixed nav */
+ 
+}
+
+.head1{
+    font-size: 24px; /* Font size for the heading */
+    color: #55503b; /* Dark grey color */
+    font-weight: 800; /* Bold font weight */
+}
+
+.para1{
+    font-size: 20px; /* Font size for the subheading */
+    color: #300f0f; /* Dark grey color */
+
+}
+
+.btn1{
+    background-color: #55503b; /* Dark grey background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Font size for the button */
+}
+.btn1:hover{
+    background-color: #300f0f; /* Dark grey background on hover */
+    color: white; /* White text color on hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+
+.head2{
+    font-size: 30px; /* Font size for the heading */
+    color: #0a2b03; /* Dark grey color */
+    font-weight: 800; /* Bold font weight */
+}
+
+.para2{
+    font-size: 18px; /* Font size for the subheading */
+    color: #dfe9e6; /* Dark grey color */
+
+}
+
+.btn2{
+    background-color: #0a2b03; /* Dark grey background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Font size for the button */
+}
+.btn2:hover{
+    background-color: #15410d; /* Dark grey background on hover */
+    color: white; /* White text color on hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+
+.head3{
+    font-size: 28px; /* Font size for the heading */
+    color: #9c086b; /* Dark grey color */
+    font-weight: 800; /* Bold font weight */
+}
+
+.para3{
+    font-size: 22px; /* Font size for the subheading */
+    color: #132922; /* Dark grey color */
+
+}
+
+.btn3{
+    background-color: #9c086b; /* Dark grey background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Font size for the button */
+}
+.btn3:hover{
+    background-color: #490332; /* Dark grey background on hover */
+    color: white; /* White text color on hover */
+    text-decoration: none; /* No underline on hover */
+}
